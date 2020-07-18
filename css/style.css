@@ -144,7 +144,7 @@
 }
 .sub-leftcard3 {
     bottom: 0;
-    left: 10px;
+    left: 85px;
     opacity: 1;
     transform: scale(1,1);
 }
@@ -561,6 +561,9 @@
 
 .p-relative {
     position: relative;
+}
+.p-absolute {
+    position: absolute;
 }
 
 .flex-v-center {
