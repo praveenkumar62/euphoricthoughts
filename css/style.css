@@ -83,14 +83,21 @@
     to { transform: rotate(0); }
 }
 
+.img-dev {
+    position: absolute;
+    top: 215px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
 .home-card {
-    margin: 110px 0 95px 0;
+    margin: 120px 0 120px 0;
     background: rgb(235, 240, 254);
     padding: 40px 25px;
     width: 70%;
     border-radius: 10px;
     box-shadow: 2px 4px 15px #bbb;
-    transition: 0.6s;
+    transition: 1s;
     z-index: 1000;
 }
 .home-card p {
@@ -107,7 +114,7 @@
     box-shadow: 2px 4px 15px #bbb;
     position: absolute;
     opacity: 1;
-    transition: 0.5s;
+    transition: 0.6s;
 }
 .sub-home-card p {
     font-weight: bold;
@@ -244,6 +251,7 @@
     padding: 130px 40px;
     border-radius: 15px;
     margin: 20px 30px;
+    overflow-y: hidden;
 }
 
 .purple-dot::before {
@@ -255,6 +263,23 @@
     display: inline-block;
     border: 5px solid rgb(104, 102, 246);
 }
+
+.animate-slideToLeft {
+    animation: animationSlideToLeft 0.6s;
+}
+.animate-slideToRight {
+    animation: animationSlideToRight 0.6s;
+}
+
+@keyframes animationSlideToLeft {
+    from { transform: translateX(450px); }
+    to { transform: translateX(0); }
+}
+@keyframes animationSlideToRight {
+    from { transform: translateX(-450px); }
+    to { transform: translateX(0); }
+}
+
 
 .home-work span:nth-child(1) {
     background: rgb(60,82,238);
