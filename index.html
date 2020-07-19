@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content="Praveenkumar C">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./css/style.css">
@@ -37,8 +38,8 @@
     </nav>
     
     <div class="bg-container p-relative" style="overflow-x:hidden">
-        <img src="./images/landing-bg.png" alt="Euphoric" class="v-img-responsive" />
-
+        <img src="./images/landing-bg.png" alt="Euphoric" class="v-img-responsive hidden-lg hidden-md" />
+        <div id="particles-js" class="hidden-sm hidden-xs"></div>
 
         <div class="slider-ui padding-20">
             <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -63,8 +64,8 @@
                             
                                 <div class="col-lg-5 col-md-5 hidden-sm hidden-xs">
                                     <div class="p-relative" style="overflow:hidden;">
-                                        <img src="./images/outer_circle_animation.png" alt="Euphoric" class="img-responsive outer-circle-animate" style="width:74%;margin:0 auto;" />
-                                        <img src="./images/home_product.png" alt="Euphoric" class="img-responsive inner-circle-animate" style="position:absolute;top:3%;left:15%;width:70%;" />
+                                        <img src="./images/outer_circle_animation.png" alt="Euphoric" class="img-responsive outer-circle-animate padding-10" style="width:74%;margin:0 auto;" />
+                                        <img src="./images/home_product.png" alt="Euphoric" class="img-responsive inner-circle-animate padding-10" style="position:absolute;top:3%;left:15%;width:70%;" />
                                     </div>
                                 </div> 
                             </div>
@@ -83,8 +84,8 @@
 
                                 <div class="col-lg-5 col-md-5 hidden-sm hidden-xs">
                                     <div class="p-relative" style="overflow:hidden;">
-                                        <img src="./images/outer_circle_animation.png" alt="Euphoric" class="img-responsive outer-circle-animate" style="width:74%;margin:0 auto;" />
-                                        <img src="./images/home_cloud.png" alt="Euphoric" class="img-responsive inner-circle-animate" style="position:absolute;top:3%;left:15%;width:70%;" />
+                                        <img src="./images/outer_circle_animation.png" alt="Euphoric" class="img-responsive outer-circle-animate padding-10" style="width:74%;margin:0 auto;" />
+                                        <img src="./images/home_cloud.png" alt="Euphoric" class="img-responsive inner-circle-animate padding-10" style="position:absolute;top:3%;left:15%;width:70%;" />
                                     </div>
                                 </div> 
                             </div>
@@ -103,8 +104,8 @@
 
                                 <div class="col-lg-5 col-md-5 hidden-sm hidden-xs">
                                     <div class="p-relative" style="overflow:hidden;">
-                                        <img src="./images/outer_circle_animation.png" alt="Euphoric" class="img-responsive outer-circle-animate" style="width:74%;margin:0 auto;" />
-                                        <img src="./images/home_devops.png" alt="Euphoric" class="img-responsive inner-circle-animate" style="position:absolute;top:3%;left:15%;width:70%;" />
+                                        <img src="./images/outer_circle_animation.png" alt="Euphoric" class="img-responsive outer-circle-animate padding-10" style="width:74%;margin:0 auto;" />
+                                        <img src="./images/home_devops.png" alt="Euphoric" class="img-responsive inner-circle-animate padding-10" style="position:absolute;top:3%;left:15%;width:70%;" />
                                     </div>
                                 </div> 
                             </div>
@@ -272,7 +273,7 @@
         <div class="container">
             <h2 class="primary-header text-center">Test, Support, Design, Development & Operations <span class="clr-purple">Work together.</span></h2>
 
-            <div class="home-work hidden-sm hidden-xs mt30 mb10">
+            <div class="home-work hidden-sm hidden-xs mt30 mb10" id="home-work">
                 <span class="text-center clr-white">Plan</span>
                 <span class="text-center clr-white">Design</span>
                 <span class="text-center clr-white">Develop</span>
@@ -473,6 +474,10 @@
         </div>
     </div>
 
+    <script src="./js/particles/particles.js"></script>
     <script src="./js/app.js"></script>
+    
 </body>
 </html>
+
+<!--  Author: Praveenkumar C  -->
