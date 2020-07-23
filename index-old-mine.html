@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content="Praveenkumar C">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./css/style.css">
@@ -37,50 +38,79 @@
     </nav>
     
     <div class="bg-container p-relative" style="overflow-x:hidden">
-        <img src="./images/landing-bg.png" alt="Euphoric" class="v-img-responsive" />
-
+        <img src="./images/landing-bg.png" alt="Euphoric" class="v-img-responsive hidden-lg hidden-md" />
+        <div id="particles-js" class="hidden-sm hidden-xs"></div>
 
         <div class="slider-ui padding-20">
             <div id="myCarousel" class="carousel slide" data-ride="carousel">
                         
-                <ol class="carousel-indicators">
+                <ol class="carousel-indicators" style="margin-bottom:-75px;">
                     <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
                     <li data-target="#myCarousel" data-slide-to="1"></li>
                     <li data-target="#myCarousel" data-slide-to="2"></li>
                 </ol>
                 <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-lg-7 col-md-7 col-sm-12 col-xs-12 mt40">
-                            <div class="carousel-inner">
-                                <div class="item active">
-                                    <p class="clr-white slider-p-one">Build New | Modernize | Maintain | Package</p>
-                                    <h1 class="slider-heading mt10 mb20">Product Engineering.</h1>
-                                    <p class="clr-white slider-p-one padding-right-more">Build new business applications, modernizing legacy ones, or testing and maintaining existing applications - Euphoric Thought delivers Scalable, Secure, and engaging product development services across all devices and platforms.</p>
-                                    <a href="#" class="btn btn-learn-more">Learn More &nbsp;<i class="fa fa-arrow-right"></i></a>
-                                </div>
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <div class="row flex-v-center">
+                                <div class="col-lg-7 col-md-7 col-sm-12 col-xs-12 mt40">
+                                    <div>
+                                        <p class="clr-white slider-p-one">Build New | Modernize | Maintain | Package</p>
+                                        <h1 class="slider-heading mt10 mb20">Product Engineering.</h1>
+                                        <p class="clr-white slider-p-one padding-right-more">Build new business applications, modernizing legacy ones, or testing and maintaining existing applications - Euphoric Thought delivers Scalable, Secure, and engaging product development services across all devices and platforms.</p>
+                                        <a href="#" class="btn btn-learn-more">Learn More &nbsp;<i class="fa fa-arrow-right"></i></a>
+                                    </div>
+                                </div>    
                             
-                                <div class="item">
-                                    <p class="clr-white slider-p-one">Build New | Modernize | Maintain | Package</p>
-                                    <h1 class="slider-heading mt10 mb20">Cloud.</h1>
-                                    <p class="clr-white slider-p-one padding-right-more">From migration to management - get the best advice and services at every stage of your cloud journey.</p>
-                                    <a href="#" class="btn btn-learn-more">Learn More &nbsp;<i class="fa fa-arrow-right"></i></a>
+                                <div class="col-lg-5 col-md-5 hidden-sm hidden-xs">
+                                    <div class="p-relative" style="overflow:hidden;">
+                                        <img src="./images/outer_circle_animation.png" alt="Euphoric" class="img-responsive outer-circle-animate padding-10" style="width:74%;margin:0 auto;" />
+                                        <img src="./images/home_product.png" alt="Euphoric" class="img-responsive inner-circle-animate padding-10" style="position:absolute;top:3%;left:15%;width:70%;" />
+                                    </div>
+                                </div> 
+                            </div>
+                        </div>
+                            
+                        <div class="item">
+                            <div class="row flex-v-center">
+                                <div class="col-lg-7 col-md-7 col-sm-12 col-xs-12 mt40">
+                                    <div>
+                                        <p class="clr-white slider-p-one">Build New | Modernize | Maintain | Package</p>
+                                        <h1 class="slider-heading mt10 mb20">Cloud.</h1>
+                                        <p class="clr-white slider-p-one padding-right-more">From migration to management - get the best advice and services at every stage of your cloud journey.</p>
+                                        <a href="#" class="btn btn-learn-more">Learn More &nbsp;<i class="fa fa-arrow-right"></i></a>
+                                    </div>
                                 </div>
+
+                                <div class="col-lg-5 col-md-5 hidden-sm hidden-xs">
+                                    <div class="p-relative" style="overflow:hidden;">
+                                        <img src="./images/outer_circle_animation.png" alt="Euphoric" class="img-responsive outer-circle-animate padding-10" style="width:74%;margin:0 auto;" />
+                                        <img src="./images/home_cloud.png" alt="Euphoric" class="img-responsive inner-circle-animate padding-10" style="position:absolute;top:3%;left:15%;width:70%;" />
+                                    </div>
+                                </div> 
+                            </div>
+                        </div>
                                 
-                                <div class="item">
-                                    <p class="clr-white slider-p-one">Build New | Modernize | Maintain | Package</p>
-                                    <h1 class="slider-heading mt10 mb20">DevOps Consulting Company.</h1>
-                                    <p class="clr-white slider-p-one padding-right-more">Our collaborative DevOps approach ensures efficient, effective, and fast software development. Our agile and lean development methodology breaks siloed teams and fosters operational speed and collective innovations.</p>
-                                    <a href="#" class="btn btn-learn-more">Learn More &nbsp;<i class="fa fa-arrow-right"></i></a>
+                        <div class="item">
+                            <div class="row flex-v-center">
+                                <div class="col-lg-7 col-md-7 col-sm-12 col-xs-12 mt40">
+                                    <div>
+                                        <p class="clr-white slider-p-one">Build New | Modernize | Maintain | Package</p>
+                                        <h1 class="slider-heading mt10 mb20">DevOps.</h1>
+                                        <p class="clr-white slider-p-one padding-right-more">Our collaborative DevOps approach ensures efficient, effective, and fast software development. Our agile and lean development methodology breaks siloed teams and fosters operational speed and collective innovations.</p>
+                                        <a href="#" class="btn btn-learn-more">Learn More &nbsp;<i class="fa fa-arrow-right"></i></a>
+                                    </div>
                                 </div>
+
+                                <div class="col-lg-5 col-md-5 hidden-sm hidden-xs">
+                                    <div class="p-relative" style="overflow:hidden;">
+                                        <img src="./images/outer_circle_animation.png" alt="Euphoric" class="img-responsive outer-circle-animate padding-10" style="width:74%;margin:0 auto;" />
+                                        <img src="./images/home_devops.png" alt="Euphoric" class="img-responsive inner-circle-animate padding-10" style="position:absolute;top:3%;left:15%;width:70%;" />
+                                    </div>
+                                </div> 
                             </div>
                         </div>
-                        <div class="col-lg-5 col-md-5 hidden-sm hidden-xs">
-                            <div class="p-relative" style="overflow:hidden;">
-                                <img src="./images/outer_circle_animation.png" alt="Euphoric" class="img-responsive outer-circle-animate" style="width:74%;margin:0 auto;" />
-                                <img src="./images/inner_circle_animation.png" alt="Euphoric" class="img-responsive inner-circle-animate" style="position:absolute;top:3%;left:15%;width:70%;" />
-                            </div>
-                        </div>
-                    </div>
+                    </div>       
                 </div>    
                 
             </div>
@@ -100,12 +130,15 @@
                 <img src="./images/home_bg_lines.png" alt="Euphoric" class="img-repsonsive img-dev hidden-md hidden-sm hidden-xs" />
                 <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 mt20 mb20 p-relative">
                     <div id="sub-leftcard1" class="sub-home-card hide-sub-homecard hidden-sm hidden-xs">
+                        <i class="work-dot purple-work-dot d-block p-absolute hidden-md hidden-sm hidden-xs" style="left: 40%;transform: translateX(50%);bottom: -9px;"></i>
                         <p>Web Application Development</p>
                     </div>
-                    <div id="sub-leftcard2" class="sub-home-card hide-sub-homecard hidden-sm hidden-xs">
+                    <div id="sub-leftcard2" class="sub-home-card hide-sub-homecardhidden-sm hidden-xs">
+                        <i class="work-dot purple-work-dot d-block p-absolute hidden-md hidden-sm hidden-xs" style="bottom: -9px;left: -8px;"></i>
                         <p>Mobile Application Development</p>
                     </div>
                     <div id="sub-leftcard3" class="sub-home-card hide-sub-homecard hidden-sm hidden-xs">
+                        <i class="work-dot purple-work-dot d-block p-absolute hidden-md hidden-sm hidden-xs" style="top: -9px;left: -8px;"></i>
                         <p>Product Engineering</p>
                     </div>
                     <div class="home-card" id="home-card1">
@@ -115,33 +148,42 @@
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 mt20 mb20 p-relative">
                     <div id="sub-centercard1" class="sub-home-card hide-sub-homecard hidden-sm hidden-xs">
+                        <i class="work-dot purple-work-dot d-block p-absolute hidden-md hidden-sm hidden-xs" style="bottom: -8px;left: 45%;transform: translateX(-50%);"></i>
                         <p>Cloud Consulting</p>
                     </div>
                     <div id="sub-centercard2" class="sub-home-card hide-sub-homecard hidden-sm hidden-xs">
+                        <i class="work-dot purple-work-dot d-block p-absolute hidden-md hidden-sm hidden-xs" style="bottom: -9px;left: -8px;"></i>
                         <p>Cloud Migration</p>
                     </div>
                     <div id="sub-centercard3" class="sub-home-card hide-sub-homecard hidden-sm hidden-xs">
+                        <i class="work-dot purple-work-dot d-block p-absolute hidden-md hidden-sm hidden-xs" style="top: -9px;right: -8px;"></i>
                         <p>Cloud Security</p>
                     </div>
                     <div id="sub-centercard4" class="sub-home-card hide-sub-homecard hidden-sm hidden-xs">
+                        <i class="work-dot purple-work-dot d-block p-absolute hidden-md hidden-sm hidden-xs" style="top: -9px;left: -8px;"></i>
                         <p>Managed Services</p>
                     </div>
                     <div class="home-card" id="home-card2" style="margin-left:auto;margin-right:auto;">
-                        <p>Cloud <br />Storage</p>
+                        <i class="work-dot purple-work-dot d-block p-absolute hidden-md hidden-sm hidden-xs" style="bottom: 110px;left: 50%;transform: translateX(-50%);"></i>
+                        <p>Cloud</p>
                         <img src="./images/homecard2.png" alt="Euphoric" class="img-responsive" />
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 mt20 mb20 p-relative">
                     <div id="sub-rightcard1" class="sub-home-card hide-sub-homecard hidden-sm hidden-xs">
+                        <i class="work-dot purple-work-dot d-block p-absolute hidden-md hidden-sm hidden-xs" style="bottom: -8px;right: -8px;"></i>
                         <p>CI/CD</p>
                     </div>
                     <div id="sub-rightcard2" class="sub-home-card hide-sub-homecard hidden-sm hidden-xs">
+                        <i class="work-dot purple-work-dot d-block p-absolute hidden-md hidden-sm hidden-xs" style="bottom: -8px;left: 45%;transform: translateX(-50%);"></i>
                         <p>Automation</p>
                     </div>
                     <div id="sub-rightcard3" class="sub-home-card hide-sub-homecard hidden-sm hidden-xs">
+                        <i class="work-dot purple-work-dot d-block p-absolute hidden-md hidden-sm hidden-xs" style="top: -9px;right: -8px;"></i>
                         <p>Managed Services</p>
                     </div>
                     <div id="sub-rightcard4" class="sub-home-card hide-sub-homecard hidden-sm hidden-xs">
+                        <i class="work-dot purple-work-dot d-block p-absolute hidden-md hidden-sm hidden-xs" style="top: -9px;left: -8px;"></i>
                         <p>Operations</p>
                     </div>
                     <div class="home-card" id="home-card3" style="float:right;">
@@ -185,7 +227,7 @@
                 </div>
                 <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12 process-container-right">
                     <div class="process-card">
-                        <img src="./images/process_1.png" class="img-responsive" alt="Euphoric" />
+                        <img src="./images/process_1.png" id="process-img1" class="img-responsive" alt="Euphoric" />
                     </div>
                 </div>
             </div>
@@ -198,7 +240,7 @@
             <div class="row p-relative">
                 <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12 process-container-left">
                     <div class="process-card">
-                        <img src="./images/process_2.png" class="img-responsive" alt="Euphoric" />
+                        <img src="./images/process_2.png" id="process-img2" class="img-responsive" alt="Euphoric" />
                     </div>
                 </div>
                 <div class="col-lg-7 col-md-7 col-sm-12 col-xs-12 process-support-right">
@@ -215,7 +257,7 @@
                         <h2 class="sec-header mb20">The Concept Phase</h2>
                         <p class="main-para mt15 mb15">In this phase when the product almost reaches the alpha stage:</p> 
                         <p class="main-para mt15 mb15">I work closely with the development team to resolve implementation issues.</p>
-                        <p class="main-para mt15 mb15">Make sure all the test cases are implemented as defined. Continue to collect feedn=back on designs.</p>
+                        <p class="main-para mt15 mb15">Make sure all the test cases are implemented as defined. Continue to collect feedback on designs.</p>
                         <p class="main-para mt15 mb15">I make sure that all the design details are translated effectively to the development team. I also maintain a constant communication between the designers and the developers.</p>
                     
                         <p class="mt20 mb20" style="font-size:18px;"><span class="purple-dot clr-purple text-bold">Key players :</span> Stakeholders/ Customer,Product Managers</p>
@@ -231,10 +273,10 @@
         <div class="container">
             <h2 class="primary-header text-center">Test, Support, Design, Development & Operations <span class="clr-purple">Work together.</span></h2>
 
-            <div class="home-work hidden-sm hidden-xs mt30 mb10">
+            <div class="home-work hidden-sm hidden-xs mt30 mb10" id="home-work">
                 <span class="text-center clr-white">Plan</span>
                 <span class="text-center clr-white">Design</span>
-                <span class="text-center clr-white">Develope</span>
+                <span class="text-center clr-white">Develop</span>
                 <span class="text-center clr-white">Deploy</span>
                 <div class="clearfix"></div>
             </div>
@@ -432,6 +474,10 @@
         </div>
     </div>
 
+    <script src="./js/particles/particles.js"></script>
     <script src="./js/app.js"></script>
+    
 </body>
 </html>
+
+<!--  Author: Praveenkumar C  -->
