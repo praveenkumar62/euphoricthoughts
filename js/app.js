@@ -184,7 +184,7 @@ $(document).ready(function() {
             $('#process-img1').removeClass('animate-slideToLeft');
         }
 
-        if (document.body.scrollTop > 2025 || document.documentElement.scrollTop > 2025) {
+        if (document.body.scrollTop > 1925 || document.documentElement.scrollTop > 1925) {
             $('#process-img2').addClass('animate-slideToRight');
         } else {
             $('#process-img2').removeClass('animate-slideToRight');
