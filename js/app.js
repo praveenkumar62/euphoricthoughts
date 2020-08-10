@@ -78,6 +78,15 @@ $(document).ready(function() {
       }
   }
 
+  $('.services-table td').each(function() {
+    $(this).on('mouseover', function() {
+        $(this).find('p').addClass('active');
+    });
+    $(this).on('mouseout', function() {
+        $(this).find('p').removeClass('active');
+    });
+  });
+
     
   // work process infinite timeline
   function timelineDotLooping() {
