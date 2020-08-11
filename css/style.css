@@ -482,9 +482,13 @@
 
 
 .clients-img {
-    width: auto;
+    width: 85%;
     margin: 0 auto;
     display: block;
+    border: 2px inset #ccc;
+}
+.clients-img:hover {
+    background: #eee;
 }
 
 
