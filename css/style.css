@@ -562,7 +562,7 @@
 }
 
 /* Services pages ALL */
-ul.bread-crumb {
+/* ul.bread-crumb {
     padding: 18px 16px;
     list-style: none;
     color:#fff;
@@ -581,7 +581,7 @@ ul.bread-crumb li+li:before {
 ul.bread-crumb li a {
     color: #fff;
     text-decoration: none;
-}
+} */
 
 .services-tab-bg {
     position: absolute;
@@ -596,10 +596,10 @@ ul.bread-crumb li a {
 }
 
 .services-content-list {
-    list-style: none;
     padding-left: 30px;
 }
 .services-content-list li {
+    list-style: none;
     margin: 12px 0;
     position: relative;
 }
@@ -613,20 +613,15 @@ ul.bread-crumb li a {
     width: 18px;
     border-radius: 50%;
     display: inline-block;
+    background: #fff;
     border: 5px solid rgb(104, 102, 246);
-}
-
-.services-img {
-    width: 100%;
-    object-fit: cover;
-    border-radius: 30px;
 }
 
 .services-interactive {
     margin: 30px 0;
     padding: 50px 80px;
     border-radius: 40px;
-    background-color: #EAF0FF;
+    background-color: #6C63FF;
 }
 
 .service-curve-up {
@@ -729,6 +724,22 @@ ul.bread-crumb li a {
     bottom: -10px;
     background: rgba(213, 79, 102, 0.9);
 }
+
+
+.btn-services-main {
+    background-color: #6C63FF;
+    color: #fff;
+    padding: 12px 15px;
+    border-radius: 4px;
+    text-decoration: none;
+    display: inline-block;
+}
+.btn-services-main:link, .btn-services-main:visited, .btn-services-main:hover, .btn-services-main:active {
+    text-decoration: none;
+    color: #fff;
+}
+
+
 
 /* General */
 .primary-header {
