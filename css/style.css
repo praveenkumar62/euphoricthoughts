@@ -781,6 +781,11 @@ ul.bread-crumb li a {
     margin-bottom: 15px;
 }
 
+.vertical-center {
+    display: flex;
+    align-items: center;
+}
+
 
 /* Common */
 @media (min-width: 1200px) {
