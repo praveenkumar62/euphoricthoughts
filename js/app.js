@@ -154,6 +154,15 @@ $(document).ready(function() {
 //   Enabling tooltip
 $('[data-toggle="tooltip"]').tooltip();
 
+$('.team-gallery').mouseover(function() {
+    $(this).find('.team-cont').addClass('team-content');
+    $(this).find('.team-cont').show();
+});
+$('.team-gallery').mouseout(function() {
+    $(this).find('.team-cont').removeClass('team-content');
+    $(this).find('.team-cont').hide();
+});
+
 });
 
 
