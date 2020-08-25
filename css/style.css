@@ -577,7 +577,7 @@ ul.bread-crumb {
     z-index: 10;
 }
 ul.bread-crumb li {
-    display: inline-block;;
+    display: inline-block;
     font-size: 15px;
     margin-top: 8px;
 }
@@ -903,6 +903,26 @@ ul.bread-crumb li a:hover {
     background: #fff;
     border-radius: 3px;
     font-size: 24px;
+}
+
+.company-cards {
+    background: #fff;
+    padding: 5px 25px 25px 25px;
+    border-radius: 10px;
+    min-height: 500px;
+    margin-bottom: 40px;
+    transition: 0.4s;
+}
+.company-cards img {
+    height: 260px;
+    width: auto;
+    max-width: initial;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -30px;
+}
+.company-cards:hover {
+    box-shadow: 0 15px 20px #333;
 }
 
 
